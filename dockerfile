@@ -13,5 +13,4 @@
     # Install MongoDB package (.deb)
     RUN apt-get install -y mongodb-10gen
     # Create the default data directory
-    RUN mkdir -p /data/db
     ##################### INSTALLATION END #####################
