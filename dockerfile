@@ -10,7 +10,6 @@
     # Add MongoDB to the repository sources list
     RUN echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | tee /etc/apt/sources.list.d/mongodb.list
     # Update the repository sources list once more
-    RUN apt-get update
     # Install MongoDB package (.deb)
     RUN apt-get install -y mongodb-10gen
     # Create the default data directory
